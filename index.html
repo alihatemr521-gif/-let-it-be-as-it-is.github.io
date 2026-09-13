@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Let it be as it is — a personal space for writings, photographs, and fragments.">
+  <title>Let it be as it is</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Let it be as it is">Let it be as it is</a>
+    <nav>
+      <a href="#writings" data-i18n="nav.writings">Writings</a>
+      <a href="#photos" data-i18n="nav.photos">Photos</a>
+      <a href="#archive" data-i18n="nav.archive">Archive</a>
+    </nav>
+    <button class="lang" id="langToggle" type="button">AR</button>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="hero.eyebrow">A personal space</p>
+        <h1>Let it be<br><em>as it is.</em></h1>
+        <p class="intro" data-i18n="hero.intro">
+          A place for what I write, what I see, and what I choose to leave here.
+        </p>
+        <a class="scroll-link" href="#writings"><span>↓</span> <span data-i18n="hero.enter">Enter</span></a>
+      </div>
+      <div class="hero-art">
+        <div class="halo"></div>
+        <img src="assets/brain.gif" alt="Brain illustration">
+      </div>
+    </section>
+
+    <section class="section" id="writings">
+      <div class="section-head">
+        <p class="eyebrow">01</p>
+        <h2 data-i18n="nav.writings">Writings</h2>
+      </div>
+      <div class="empty-state">
+        <p class="muted" data-i18n="writings.empty">Nothing has been written here yet.</p>
+        <p class="small" data-i18n="writings.note">The first piece will appear here when it is ready.</p>
+      </div>
+    </section>
+
+    <section class="section photos-section" id="photos">
+      <div class="section-head">
+        <p class="eyebrow">02</p>
+        <h2 data-i18n="nav.photos">Photos</h2>
+      </div>
+      <div class="photo-grid">
+        <figure class="photo-card">
+          <img src="assets/brain.gif" alt="Brain illustration">
+          <figcaption><span>01</span><span data-i18n="photos.brain">The mind, left open.</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section archive-section" id="archive">
+      <div class="section-head">
+        <p class="eyebrow">03</p>
+        <h2 data-i18n="nav.archive">Archive</h2>
+      </div>
+      <div class="archive-line">
+        <span class="muted" data-i18n="archive.empty">The archive is waiting.</span>
+        <span class="small">2026 — ∞</span>
+      </div>
+    </section>
+
+    <section class="closing">
+      <p data-i18n="closing">Nothing needs to be forced into being something else.</p>
+    </section>
+  </main>
+
+  <footer>
+    <span>Let it be as it is</span>
+    <span>© 2026</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
